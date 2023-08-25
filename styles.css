@@ -1,0 +1,41 @@
+.header {
+background-color: #1F2937
+}
+
+.header h4,
+.header li {
+    color: white;
+}
+
+.subtext {
+    background-color: #1F2937;
+}
+
+.subtext h1,
+.subtext p {
+color: white;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.signup {
+    background-color:#3882F6;
+}
+.signup h3,
+.signup p {
+    color: white;
+}
+button {
+    background-color: #3882F6;
+    color: white;
+}
+
+.footer {
+    background-color: #1F2937
+}
+
+.footer p {
+    color: white;
+}
