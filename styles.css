@@ -16,11 +16,18 @@ justify-content: space-around;
 
 }
 
+.header h4 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.subtext button {
+    border-style: none;
+}
 .header li {
 
     display: inline-block;
     margin-right: 16px;
-
+ 
 }
 
 .header h4,
@@ -28,23 +35,42 @@ justify-content: space-around;
     color: white;
 }
 
+.subtext bg {
+    background-color:#1F2937;
+    display: flex;
+   
+}
 .subtext {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
     padding: 40px;
     padding-top: 0px;
-    padding-left: 337px;
+  
+    width: 700px;
+   
 }
 
 .subtext0 {
     display: flex;
-    background-color:#1F2937
+    background-color:#1F2937;
+   justify-content: center;
+    
 }
 .subtext button {
     width: 100px;
 }
 
+.subtext p {
+    margin-top: -10px;
+    font-size: 18px;
+    font-weight: light;
+}
+
+.subtext h1 {
+    font-weight: bolder;
+    font-size: 33px;
+}
 .subtext h1,
 .subtext p {
 color: white;
@@ -56,6 +82,7 @@ color: white;
     text-align: center;
     height: 450px;
     margin-top: 20px;
+    
 }
 .collage {
     display: flex;
@@ -99,18 +126,34 @@ color: white;
     margin-bottom: -140px;
     flex-direction: column;
     padding: 250px;
+    align-items: center;
 }
 .signup {
     background-color:#3882F6;
-    
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    padding-left: 90px;
+    padding-right: 90px;
+    border-radius: 15px;
+    width: 800px;
 }
 .signup h3,
 .signup p {
     color: white;
 }
+
+.action button {
+height: 40px;
+width: 100px;
+margin-top: 30px;
+}
+
 button {
     background-color: #3882F6;
     color: white;
+    border-radius: 15px;
+
 }
 
 .footer {
